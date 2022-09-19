@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "nzmax"
+    ],
+    "files.associations": {
+        "cs.h": "c",
+        "cs_mex.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
