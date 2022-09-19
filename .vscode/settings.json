@@ -1,6 +1,9 @@
 {
     "cSpell.words": [
-        "nzmax"
+        "cumsum",
+        "nzmax",
+        "spalloc",
+        "sprealloc"
     ],
     "files.associations": {
         "cs.h": "c",

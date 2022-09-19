@@ -49,7 +49,7 @@ catch
     pc = ~isunix ;
 end
 
-if (~isempty (strfind (computer, '64')))
+if (contains (computer, '64'))
     fprintf ('Compiling CSparse (64-bit)\n') ;
     mexcmd = 'mex -largeArrayDims' ;
 else
@@ -64,7 +64,7 @@ end
 
 % CSparse source files, in ../../Source, such as ../../Source/cs_add.c.
 % Note that not all CSparse source files have their own mexFunction.
-cs = { 'cs_gaxpy', 'cs_util', 'cs_malloc'} ;
+cs = { 'cs_gaxpy', 'cs_util', 'cs_malloc', 'cs_compress', 'cs_cumsum', 'cs_entry', 'cs_transpose'} ;
     % add cs_mynewfunc to the above list
 
 details = 0 ;
@@ -78,7 +78,7 @@ elseif (ischar (f))
     csm = {f} ;
 else
     force = f ;
-    details = details | (force > 1) ;                                       %#ok
+    details = details | (force > 1) ;                                       
     if (force & details)                                                    %#ok
         fprintf ('cs_make: re-compiling everything\n') ;
     end
@@ -89,7 +89,7 @@ end
 
 if (isempty (csm))
     % mexFunctions, of the form cs_add_mex.c, etc, in this directory
-    csm = {  'cs_gaxpy' } ;
+    csm = {  'cs_gaxpy', 'cs_transpose'} ;
         % add cs_mynewfunc to the above list
 end
 
@@ -113,7 +113,7 @@ hfile = '../../Include/cs.h' ;
 % Change the following to 0 if relative paths work fine with /I on Windows:
 relative_paths_do_not_work = 1 ;
 
-if (pc & relative_paths_do_not_work)
+if (pc && relative_paths_do_not_work)
     % begin pain
     here = pwd ;
     cd ../../Include
@@ -128,17 +128,17 @@ end
 %-------------------------------------------------------------------------------
 
 % compile each CSparse source file
-[anysrc timestamp kk] = compile_source ('', 'cs_mex', obj, hfile, force, ...
+[anysrc, timestamp, kk] = compile_source ('', 'cs_mex', obj, hfile, force, ...
     kk, details, mexcmd) ;
 CS = ['cs_mex' obj] ;
 if (nargout > 0)
     objfiles = ['../CSparse/cs_mex' obj] ;
 end
 for i = 1:length (cs)
-    [s t kk] = compile_source (srcdir, cs {i}, obj, hfile, force, ...
+    [s, t, kk] = compile_source (srcdir, cs {i}, obj, hfile, force, ...
         kk, details, mexcmd) ;
     timestamp = max (timestamp, t) ;
-    anysrc = anysrc | s ;                                                   %#ok
+    anysrc = anysrc | s ;                                                   
     CS = [CS ' ' cs{i} obj] ;                                               %#ok
     if (nargout > 0)
         objfiles = [objfiles ' ../CSparse/' cs{i} obj] ;   %#ok
@@ -148,7 +148,7 @@ end
 % compile each CSparse mexFunction
 obj = ['.' mexext] ;
 for i = 1:length (csm)
-    [s t] = cs_must_compile ('', csm{i}, '_mex', obj, hfile, force) ;
+    [s, t] = cs_must_compile ('', csm{i}, '_mex', obj, hfile, force) ;
     timestamp = max (timestamp, t) ;
     if (anysrc | s)                                                         %#ok
         cmd = sprintf ('%s -O %s_mex.c %s -output %s', ...
@@ -171,7 +171,7 @@ function [s,t,kk] = compile_source (srcdir, f, obj, hfile, force, ...
     kk, details, mexcmd)
 % compile a source code file in ../../Source, leaving object file in
 % this directory.
-[s t] = cs_must_compile (srcdir, f, '', obj, hfile, force) ;
+[s, t] = cs_must_compile (srcdir, f, '', obj, hfile, force) ;
 if (s)
     cmd = sprintf ('%s -O -c %s%s.c', mexcmd, srcdir, f) ;
     kk = do_cmd (cmd, kk, details) ;
