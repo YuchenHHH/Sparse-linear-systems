@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sparse_linear_systems"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sparse_linear_systems">
+				<Option output="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Sparse_linear_systems.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/A_Code_Project/CS/Sparse-linear-systems/Include"/>
+					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sparse_linear_systems"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sparse_linear_systems/fast">
+				<Option output="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Sparse_linear_systems.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/A_Code_Project/CS/Sparse-linear-systems/Include"/>
+					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sparse_linear_systems/fast"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Include/cs.h">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_compress.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_cumsum.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_dupl.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_entry.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_gaxpy.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_load.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_malloc.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_transpose.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_util.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/main.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

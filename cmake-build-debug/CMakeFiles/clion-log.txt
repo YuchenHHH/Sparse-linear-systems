@@ -1,0 +1,4 @@
+D:\jetBrain\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\A_Code_Project\CS\Sparse-linear-systems
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug
