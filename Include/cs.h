@@ -37,7 +37,7 @@ typedef struct cs_sparse /* matrix in compressed-column or triplet form */
 // cs *cs_add (const cs *A, const cs *B, double alpha, double beta) ;
 // csi cs_cholsol (csi order, const cs *A, double *b) ;
 cs *cs_compress(const cs *T);
-// csi cs_dupl (cs *A) ;
+csi cs_dupl (cs *A) ;
 csi cs_entry(cs *T, csi i, csi j, double x);
 csi cs_gaxpy(const cs *A, const double *x, double *y);
 // cs *cs_load (FILE *f) ;
