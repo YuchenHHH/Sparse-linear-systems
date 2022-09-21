@@ -102,6 +102,9 @@
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_fkeep.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_gatxpy.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_gaxpy.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>

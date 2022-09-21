@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_dupl.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_dupl.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_dupl.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_entry.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_entry.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_entry.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_fkeep.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_fkeep.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_fkeep.c.obj.d"
+  "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_gatxpy.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_gaxpy.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_load.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_malloc.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj.d"

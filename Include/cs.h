@@ -40,6 +40,7 @@ cs *cs_compress(const cs *T);
 csi cs_dupl (cs *A) ;
 csi cs_entry(cs *T, csi i, csi j, double x);
 csi cs_gaxpy(const cs *A, const double *x, double *y);
+csi cs_gatxpy(const cs *A, const double *x, double *y);
 cs *cs_load (FILE *f) ;
 // csi cs_lusol (csi order, const cs *A, double *b, double tol) ;
 // cs *cs_multiply (const cs *A, const cs *B) ;

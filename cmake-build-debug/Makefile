@@ -296,6 +296,30 @@ Source/cs_fkeep.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_fkeep.c.s
 .PHONY : Source/cs_fkeep.c.s
 
+Source/cs_gatxpy.obj: Source/cs_gatxpy.c.obj
+.PHONY : Source/cs_gatxpy.obj
+
+# target to build an object file
+Source/cs_gatxpy.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.obj
+.PHONY : Source/cs_gatxpy.c.obj
+
+Source/cs_gatxpy.i: Source/cs_gatxpy.c.i
+.PHONY : Source/cs_gatxpy.i
+
+# target to preprocess a source file
+Source/cs_gatxpy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.i
+.PHONY : Source/cs_gatxpy.c.i
+
+Source/cs_gatxpy.s: Source/cs_gatxpy.c.s
+.PHONY : Source/cs_gatxpy.s
+
+# target to generate assembly for a file
+Source/cs_gatxpy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.s
+.PHONY : Source/cs_gatxpy.c.s
+
 Source/cs_gaxpy.obj: Source/cs_gaxpy.c.obj
 .PHONY : Source/cs_gaxpy.obj
 
@@ -470,6 +494,9 @@ help:
 	@echo ... Source/cs_fkeep.obj
 	@echo ... Source/cs_fkeep.i
 	@echo ... Source/cs_fkeep.s
+	@echo ... Source/cs_gatxpy.obj
+	@echo ... Source/cs_gatxpy.i
+	@echo ... Source/cs_gatxpy.s
 	@echo ... Source/cs_gaxpy.obj
 	@echo ... Source/cs_gaxpy.i
 	@echo ... Source/cs_gaxpy.s

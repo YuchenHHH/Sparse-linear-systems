@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_entry.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_fkeep.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_fkeep.c.obj.d"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.obj"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj"
