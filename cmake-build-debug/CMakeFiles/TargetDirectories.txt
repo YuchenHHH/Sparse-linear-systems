@@ -1,3 +1,3 @@
-E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/CMakeFiles/Sparse_linear_systems.dir
-E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/CMakeFiles/Sparse_linear_systems.dir
+D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
