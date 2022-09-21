@@ -272,6 +272,30 @@ Source/cs_entry.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_entry.c.s
 .PHONY : Source/cs_entry.c.s
 
+Source/cs_find.obj: Source/cs_find.c.obj
+.PHONY : Source/cs_find.obj
+
+# target to build an object file
+Source/cs_find.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_find.c.obj
+.PHONY : Source/cs_find.c.obj
+
+Source/cs_find.i: Source/cs_find.c.i
+.PHONY : Source/cs_find.i
+
+# target to preprocess a source file
+Source/cs_find.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_find.c.i
+.PHONY : Source/cs_find.c.i
+
+Source/cs_find.s: Source/cs_find.c.s
+.PHONY : Source/cs_find.s
+
+# target to generate assembly for a file
+Source/cs_find.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_find.c.s
+.PHONY : Source/cs_find.c.s
+
 Source/cs_fkeep.obj: Source/cs_fkeep.c.obj
 .PHONY : Source/cs_fkeep.obj
 
@@ -491,6 +515,9 @@ help:
 	@echo ... Source/cs_entry.obj
 	@echo ... Source/cs_entry.i
 	@echo ... Source/cs_entry.s
+	@echo ... Source/cs_find.obj
+	@echo ... Source/cs_find.i
+	@echo ... Source/cs_find.s
 	@echo ... Source/cs_fkeep.obj
 	@echo ... Source/cs_fkeep.i
 	@echo ... Source/cs_fkeep.s

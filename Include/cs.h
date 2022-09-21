@@ -8,11 +8,6 @@
 #ifdef MATLAB_MEX_FILE
 #include "mex.h"
 #endif
-#define CS_VER 3 /* CSparse Version */
-#define CS_SUBVER 2
-#define CS_SUBSUB 0
-#define CS_DATE "Sept 12, 2017" /* CSparse release date */
-#define CS_COPYRIGHT "Copyright (c) Timothy A. Davis, 2006-2016"
 
 #ifdef MATLAB_MEX_FILE
 #undef csi
@@ -22,7 +17,6 @@
 #define csi ptrdiff_t
 #endif
 
-/* --- primary CSparse routines and data structures ------------------------- */
 typedef struct cs_sparse /* matrix in compressed-column or triplet form */
 {
     csi nzmax; /* maximum number of entries */
@@ -41,6 +35,7 @@ csi cs_dupl (cs *A) ;
 csi cs_entry(cs *T, csi i, csi j, double x);
 csi cs_gaxpy(const cs *A, const double *x, double *y);
 csi cs_gatxpy(const cs *A, const double *x, double *y);
+cs *cs_find(const cs *C, csi len);
 cs *cs_load (FILE *f) ;
 // csi cs_lusol (csi order, const cs *A, double *b, double tol) ;
 // cs *cs_multiply (const cs *A, const cs *B) ;
@@ -57,7 +52,6 @@ cs *cs_spfree(cs *A);
 csi cs_sprealloc(cs *A, csi nzmax);
 void *cs_malloc(csi n, size_t size);
 
-/* --- secondary CSparse routines and data structures ----------------------- */
 // typedef struct cs_symbolic  /* symbolic Cholesky, LU, or QR analysis */
 // {
 //     csi *pinv ;     /* inverse row perm. for QR, fill red. perm for Chol */
@@ -114,7 +108,6 @@ csi cs_dropzeros (cs *A) ;
 // csn *cs_nfree (csn *N) ;
 // csd *cs_dfree (csd *D) ;
 
-/* --- tertiary CSparse routines -------------------------------------------- */
 // csi *cs_counts (const cs *A, const csi *parent, const csi *post, csi ata) ;
 double cs_cumsum(csi *p, csi *c, csi n);
 // csi cs_dfs (csi j, cs *G, csi top, csi *xi, csi *pstack, const csi *pinv) ;
