@@ -64,7 +64,12 @@ end
 
 % CSparse source files, in ../../Source, such as ../../Source/cs_add.c.
 % Note that not all CSparse source files have their own mexFunction.
-cs = { 'cs_gaxpy', 'cs_util', 'cs_malloc', 'cs_compress', 'cs_cumsum', 'cs_entry', 'cs_transpose', 'cs_dupl'} ;
+files = dir (fullfile('..\..\Source', '*.c'));
+cs = cell(length(files), 1);
+for i = 1 : length(files)
+    cs(i) = {files(i).name(1:end-2)};
+end
+% cs = { 'cs_gaxpy', 'cs_util', 'cs_malloc', 'cs_compress', 'cs_cumsum', 'cs_entry', 'cs_transpose', 'cs_dupl'} ;
     % add cs_mynewfunc to the above list
 
 details = 0 ;
@@ -89,7 +94,12 @@ end
 
 if (isempty (csm))
     % mexFunctions, of the form cs_add_mex.c, etc, in this directory
-    csm = {  'cs_gaxpy', 'cs_transpose'} ;
+files = dir (fullfile('.\', 'cs_*_mex.c'));
+csm = cell(length(files), 1);
+for i = 1 : length(files)
+    csm(i) = {files(i).name(1:end-6)};
+end
+    %csm = {  'cs_gaxpy', 'cs_transpose'} ;
         % add cs_mynewfunc to the above list
 end
 

@@ -16,4 +16,4 @@ add_executable(Sparse_linear_systems
         Source/cs_malloc.c
         Source/cs_transpose.c
         Source/cs_util.c
-        main.c)
+        main.c Source/cs_fkeep.c Source/cs_dropzeros.c Source/cs_droptol.c)
