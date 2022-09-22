@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@E:\MinGW
+ToolSet: w64 9.0 (local)@D:\Coding\clion\CLion 2022.2.3\bin\mingw
 Options: 
 
 Options:

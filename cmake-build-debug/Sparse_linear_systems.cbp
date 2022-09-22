@@ -8,126 +8,128 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option working_dir="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Sparse_linear_systems">
-				<Option output="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Sparse_linear_systems.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option output="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Sparse_linear_systems.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/A_Code_Project/CS/Sparse-linear-systems/Include"/>
-					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/course/Sparse lineat systems/Sparse-linear-systems/Include"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sparse_linear_systems"/>
-					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sparse_linear_systems"/>
+					<CompileFile command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Sparse_linear_systems/fast">
-				<Option output="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Sparse_linear_systems.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option output="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Sparse_linear_systems.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/A_Code_Project/CS/Sparse-linear-systems/Include"/>
-					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="E:/course/Sparse lineat systems/Sparse-linear-systems/Include"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/Coding/clion/CLion 2022.2.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sparse_linear_systems/fast"/>
-					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sparse_linear_systems/fast"/>
+					<CompileFile command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option working_dir="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug"/>
+				<Option working_dir="E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/bin/mingw32-make.exe -f &quot;D:/A_Code_Project/CS/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Coding/clion/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/course/Sparse lineat systems/Sparse-linear-systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Include/cs.h">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Include/cs.h">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_compress.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_compress.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_cumsum.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_cumsum.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_droptol.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_droptol.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_dropzeros.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_dropzeros.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_dupl.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_dupl.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_entry.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_entry.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_find.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_find.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_fkeep.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_fkeep.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_gatxpy.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_gatxpy.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_gaxpy.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_gaxpy.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_load.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_load.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_malloc.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_malloc.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_pvec.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pvec.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_transpose.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_transpose.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/Source/cs_util.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_util.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/main.c">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/main.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
-		<Unit filename="D:/A_Code_Project/CS/Sparse-linear-systems/CMakeLists.txt">
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
