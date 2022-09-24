@@ -440,6 +440,30 @@ Source/cs_malloc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.s
 .PHONY : Source/cs_malloc.c.s
 
+Source/cs_pinv.obj: Source/cs_pinv.c.obj
+.PHONY : Source/cs_pinv.obj
+
+# target to build an object file
+Source/cs_pinv.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj
+.PHONY : Source/cs_pinv.c.obj
+
+Source/cs_pinv.i: Source/cs_pinv.c.i
+.PHONY : Source/cs_pinv.i
+
+# target to preprocess a source file
+Source/cs_pinv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.i
+.PHONY : Source/cs_pinv.c.i
+
+Source/cs_pinv.s: Source/cs_pinv.c.s
+.PHONY : Source/cs_pinv.s
+
+# target to generate assembly for a file
+Source/cs_pinv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.s
+.PHONY : Source/cs_pinv.c.s
+
 Source/cs_pvec.obj: Source/cs_pvec.c.obj
 .PHONY : Source/cs_pvec.obj
 
@@ -584,6 +608,9 @@ help:
 	@echo ... Source/cs_malloc.obj
 	@echo ... Source/cs_malloc.i
 	@echo ... Source/cs_malloc.s
+	@echo ... Source/cs_pinv.obj
+	@echo ... Source/cs_pinv.i
+	@echo ... Source/cs_pinv.s
 	@echo ... Source/cs_pvec.obj
 	@echo ... Source/cs_pvec.i
 	@echo ... Source/cs_pvec.s

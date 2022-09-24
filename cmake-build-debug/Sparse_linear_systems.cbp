@@ -120,6 +120,9 @@
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_malloc.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pinv.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pvec.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
