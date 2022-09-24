@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gatxpy.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.obj.d"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj"

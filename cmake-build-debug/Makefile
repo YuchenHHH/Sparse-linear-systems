@@ -368,6 +368,30 @@ Source/cs_gaxpy.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_gaxpy.c.s
 .PHONY : Source/cs_gaxpy.c.s
 
+Source/cs_ipvec.obj: Source/cs_ipvec.c.obj
+.PHONY : Source/cs_ipvec.obj
+
+# target to build an object file
+Source/cs_ipvec.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj
+.PHONY : Source/cs_ipvec.c.obj
+
+Source/cs_ipvec.i: Source/cs_ipvec.c.i
+.PHONY : Source/cs_ipvec.i
+
+# target to preprocess a source file
+Source/cs_ipvec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.i
+.PHONY : Source/cs_ipvec.c.i
+
+Source/cs_ipvec.s: Source/cs_ipvec.c.s
+.PHONY : Source/cs_ipvec.s
+
+# target to generate assembly for a file
+Source/cs_ipvec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.s
+.PHONY : Source/cs_ipvec.c.s
+
 Source/cs_load.obj: Source/cs_load.c.obj
 .PHONY : Source/cs_load.obj
 
@@ -551,6 +575,9 @@ help:
 	@echo ... Source/cs_gaxpy.obj
 	@echo ... Source/cs_gaxpy.i
 	@echo ... Source/cs_gaxpy.s
+	@echo ... Source/cs_ipvec.obj
+	@echo ... Source/cs_ipvec.i
+	@echo ... Source/cs_ipvec.s
 	@echo ... Source/cs_load.obj
 	@echo ... Source/cs_load.i
 	@echo ... Source/cs_load.s
