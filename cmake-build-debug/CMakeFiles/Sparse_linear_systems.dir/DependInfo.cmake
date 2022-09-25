@@ -23,6 +23,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_malloc.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pinv.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pvec.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj.d"
+  "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_scatter.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_transpose.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_transpose.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_transpose.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_util.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_util.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_util.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/main.c" "CMakeFiles/Sparse_linear_systems.dir/main.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/main.c.obj.d"

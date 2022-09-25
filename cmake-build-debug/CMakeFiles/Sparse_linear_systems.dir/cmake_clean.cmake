@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj.d"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_transpose.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_transpose.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_util.c.obj"

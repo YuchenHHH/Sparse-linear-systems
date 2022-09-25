@@ -7,6 +7,7 @@ include_directories(Include)
 
 add_executable(Sparse_linear_systems
         Include/cs.h
+        main.c
         Source/cs_compress.c
         Source/cs_cumsum.c
         Source/cs_dupl.c
@@ -16,4 +17,13 @@ add_executable(Sparse_linear_systems
         Source/cs_malloc.c
         Source/cs_transpose.c
         Source/cs_util.c
-        main.c Source/cs_fkeep.c Source/cs_dropzeros.c Source/cs_droptol.c Source/cs_gatxpy.c Source/cs_find.c Source/cs_pvec.c Source/cs_ipvec.c Source/cs_pinv.c)
+        Source/cs_fkeep.c
+        Source/cs_dropzeros.c
+        Source/cs_droptol.c
+        Source/cs_gatxpy.c
+        Source/cs_find.c
+        Source/cs_pvec.c
+        Source/cs_ipvec.c
+        Source/cs_pinv.c
+        Source/cs_scatter.c
+        )

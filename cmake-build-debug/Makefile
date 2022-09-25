@@ -488,6 +488,30 @@ Source/cs_pvec.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.s
 .PHONY : Source/cs_pvec.c.s
 
+Source/cs_scatter.obj: Source/cs_scatter.c.obj
+.PHONY : Source/cs_scatter.obj
+
+# target to build an object file
+Source/cs_scatter.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj
+.PHONY : Source/cs_scatter.c.obj
+
+Source/cs_scatter.i: Source/cs_scatter.c.i
+.PHONY : Source/cs_scatter.i
+
+# target to preprocess a source file
+Source/cs_scatter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.i
+.PHONY : Source/cs_scatter.c.i
+
+Source/cs_scatter.s: Source/cs_scatter.c.s
+.PHONY : Source/cs_scatter.s
+
+# target to generate assembly for a file
+Source/cs_scatter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.s
+.PHONY : Source/cs_scatter.c.s
+
 Source/cs_transpose.obj: Source/cs_transpose.c.obj
 .PHONY : Source/cs_transpose.obj
 
@@ -614,6 +638,9 @@ help:
 	@echo ... Source/cs_pvec.obj
 	@echo ... Source/cs_pvec.i
 	@echo ... Source/cs_pvec.s
+	@echo ... Source/cs_scatter.obj
+	@echo ... Source/cs_scatter.i
+	@echo ... Source/cs_scatter.s
 	@echo ... Source/cs_transpose.obj
 	@echo ... Source/cs_transpose.i
 	@echo ... Source/cs_transpose.s

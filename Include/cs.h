@@ -37,6 +37,7 @@ csi cs_gatxpy(const cs *A, const double *x, double *y);
 csi cs_pvec(const csi *p, const double *b, double *x, csi n);
 csi cs_ipvec(const csi *p, const double *b, double *x, csi n);
 csi *cs_pinv(const csi *p, csi n);
+csi cs_scatter(const cs *A, csi j, double beta, csi *w, double *x, csi mark, cs *C, csi nz);
 cs *cs_find(const cs *C, csi len);
 cs *cs_load (FILE *f) ;
 
