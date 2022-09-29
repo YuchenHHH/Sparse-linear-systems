@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj"
+  "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_cumsum.c.obj"
@@ -25,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj.d"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj"
+  "CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj"

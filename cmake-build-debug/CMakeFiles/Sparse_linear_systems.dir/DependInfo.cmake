@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/course/Sparse lineat systems/Sparse-linear-systems/Matlab/CSparse/cs_norm_mex.c" "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_compress.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_cumsum.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_cumsum.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_cumsum.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_droptol.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_droptol.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_droptol.c.obj.d"
@@ -21,6 +22,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_ipvec.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_load.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_load.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_malloc.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.obj.d"
+  "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_norm.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pinv.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pvec.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_scatter.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj.d"

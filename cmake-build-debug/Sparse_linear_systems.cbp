@@ -81,6 +81,9 @@
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Include/cs.h">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Matlab/CSparse/cs_norm_mex.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_compress.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
@@ -118,6 +121,9 @@
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_malloc.c">
+			<Option target="Sparse_linear_systems"/>
+		</Unit>
+		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_norm.c">
 			<Option target="Sparse_linear_systems"/>
 		</Unit>
 		<Unit filename="E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_pinv.c">

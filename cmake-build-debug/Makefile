@@ -128,6 +128,30 @@ Sparse_linear_systems/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/build
 .PHONY : Sparse_linear_systems/fast
 
+Matlab/CSparse/cs_norm_mex.obj: Matlab/CSparse/cs_norm_mex.c.obj
+.PHONY : Matlab/CSparse/cs_norm_mex.obj
+
+# target to build an object file
+Matlab/CSparse/cs_norm_mex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj
+.PHONY : Matlab/CSparse/cs_norm_mex.c.obj
+
+Matlab/CSparse/cs_norm_mex.i: Matlab/CSparse/cs_norm_mex.c.i
+.PHONY : Matlab/CSparse/cs_norm_mex.i
+
+# target to preprocess a source file
+Matlab/CSparse/cs_norm_mex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.i
+.PHONY : Matlab/CSparse/cs_norm_mex.c.i
+
+Matlab/CSparse/cs_norm_mex.s: Matlab/CSparse/cs_norm_mex.c.s
+.PHONY : Matlab/CSparse/cs_norm_mex.s
+
+# target to generate assembly for a file
+Matlab/CSparse/cs_norm_mex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.s
+.PHONY : Matlab/CSparse/cs_norm_mex.c.s
+
 Source/cs_compress.obj: Source/cs_compress.c.obj
 .PHONY : Source/cs_compress.obj
 
@@ -440,6 +464,30 @@ Source/cs_malloc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_malloc.c.s
 .PHONY : Source/cs_malloc.c.s
 
+Source/cs_norm.obj: Source/cs_norm.c.obj
+.PHONY : Source/cs_norm.obj
+
+# target to build an object file
+Source/cs_norm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj
+.PHONY : Source/cs_norm.c.obj
+
+Source/cs_norm.i: Source/cs_norm.c.i
+.PHONY : Source/cs_norm.i
+
+# target to preprocess a source file
+Source/cs_norm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.i
+.PHONY : Source/cs_norm.c.i
+
+Source/cs_norm.s: Source/cs_norm.c.s
+.PHONY : Source/cs_norm.s
+
+# target to generate assembly for a file
+Source/cs_norm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sparse_linear_systems.dir\build.make CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.s
+.PHONY : Source/cs_norm.c.s
+
 Source/cs_pinv.obj: Source/cs_pinv.c.obj
 .PHONY : Source/cs_pinv.obj
 
@@ -593,6 +641,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Sparse_linear_systems
+	@echo ... Matlab/CSparse/cs_norm_mex.obj
+	@echo ... Matlab/CSparse/cs_norm_mex.i
+	@echo ... Matlab/CSparse/cs_norm_mex.s
 	@echo ... Source/cs_compress.obj
 	@echo ... Source/cs_compress.i
 	@echo ... Source/cs_compress.s
@@ -632,6 +683,9 @@ help:
 	@echo ... Source/cs_malloc.obj
 	@echo ... Source/cs_malloc.i
 	@echo ... Source/cs_malloc.s
+	@echo ... Source/cs_norm.obj
+	@echo ... Source/cs_norm.i
+	@echo ... Source/cs_norm.s
 	@echo ... Source/cs_pinv.obj
 	@echo ... Source/cs_pinv.i
 	@echo ... Source/cs_pinv.s

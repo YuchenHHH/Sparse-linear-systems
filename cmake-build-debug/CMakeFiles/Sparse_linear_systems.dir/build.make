@@ -353,6 +353,36 @@ CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.s"
 	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\course\Sparse lineat systems\Sparse-linear-systems\Source\cs_scatter.c" -o CMakeFiles\Sparse_linear_systems.dir\Source\cs_scatter.c.s
 
+CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj: CMakeFiles/Sparse_linear_systems.dir/flags.make
+CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj: CMakeFiles/Sparse_linear_systems.dir/includes_C.rsp
+CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj: ../Source/cs_norm.c
+CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj: CMakeFiles/Sparse_linear_systems.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\course\Sparse lineat systems\Sparse-linear-systems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj"
+	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj -MF CMakeFiles\Sparse_linear_systems.dir\Source\cs_norm.c.obj.d -o CMakeFiles\Sparse_linear_systems.dir\Source\cs_norm.c.obj -c "E:\course\Sparse lineat systems\Sparse-linear-systems\Source\cs_norm.c"
+
+CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.i"
+	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\course\Sparse lineat systems\Sparse-linear-systems\Source\cs_norm.c" > CMakeFiles\Sparse_linear_systems.dir\Source\cs_norm.c.i
+
+CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.s"
+	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\course\Sparse lineat systems\Sparse-linear-systems\Source\cs_norm.c" -o CMakeFiles\Sparse_linear_systems.dir\Source\cs_norm.c.s
+
+CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj: CMakeFiles/Sparse_linear_systems.dir/flags.make
+CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj: CMakeFiles/Sparse_linear_systems.dir/includes_C.rsp
+CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj: ../Matlab/CSparse/cs_norm_mex.c
+CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj: CMakeFiles/Sparse_linear_systems.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\course\Sparse lineat systems\Sparse-linear-systems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj"
+	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj -MF CMakeFiles\Sparse_linear_systems.dir\Matlab\CSparse\cs_norm_mex.c.obj.d -o CMakeFiles\Sparse_linear_systems.dir\Matlab\CSparse\cs_norm_mex.c.obj -c "E:\course\Sparse lineat systems\Sparse-linear-systems\Matlab\CSparse\cs_norm_mex.c"
+
+CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.i"
+	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\course\Sparse lineat systems\Sparse-linear-systems\Matlab\CSparse\cs_norm_mex.c" > CMakeFiles\Sparse_linear_systems.dir\Matlab\CSparse\cs_norm_mex.c.i
+
+CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.s"
+	D:\Coding\clion\CLION2~1.3\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\course\Sparse lineat systems\Sparse-linear-systems\Matlab\CSparse\cs_norm_mex.c" -o CMakeFiles\Sparse_linear_systems.dir\Matlab\CSparse\cs_norm_mex.c.s
+
 # Object files for target Sparse_linear_systems
 Sparse_linear_systems_OBJECTS = \
 "CMakeFiles/Sparse_linear_systems.dir/main.c.obj" \
@@ -373,7 +403,9 @@ Sparse_linear_systems_OBJECTS = \
 "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c.obj" \
 "CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj" \
 "CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj" \
-"CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj"
+"CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj" \
+"CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj" \
+"CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj"
 
 # External object files for target Sparse_linear_systems
 Sparse_linear_systems_EXTERNAL_OBJECTS =
@@ -397,11 +429,13 @@ Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/Source/cs_pvec.c
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/Source/cs_ipvec.c.obj
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/Source/cs_pinv.c.obj
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/Source/cs_scatter.c.obj
+Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/Source/cs_norm.c.obj
+Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/build.make
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/linklibs.rsp
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/objects1.rsp
 Sparse_linear_systems.exe: CMakeFiles/Sparse_linear_systems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\course\Sparse lineat systems\Sparse-linear-systems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable Sparse_linear_systems.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\course\Sparse lineat systems\Sparse-linear-systems\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable Sparse_linear_systems.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sparse_linear_systems.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

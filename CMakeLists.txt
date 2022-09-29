@@ -26,4 +26,4 @@ add_executable(Sparse_linear_systems
         Source/cs_ipvec.c
         Source/cs_pinv.c
         Source/cs_scatter.c
-        )
+        Source/cs_norm.c Matlab/CSparse/cs_norm_mex.c)
