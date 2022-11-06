@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/course/Sparse lineat systems/Sparse-linear-systems/Matlab/CSparse/cs_norm_mex.c" "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_compress.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_cumsum.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_cumsum.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_cumsum.c.obj.d"
   "E:/course/Sparse lineat systems/Sparse-linear-systems/Source/cs_droptol.c" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_droptol.c.obj" "gcc" "CMakeFiles/Sparse_linear_systems.dir/Source/cs_droptol.c.obj.d"

@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj"
-  "CMakeFiles/Sparse_linear_systems.dir/Matlab/CSparse/cs_norm_mex.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_compress.c.obj.d"
   "CMakeFiles/Sparse_linear_systems.dir/Source/cs_cumsum.c.obj"
